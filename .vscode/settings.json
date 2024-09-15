@@ -1,0 +1,36 @@
+{
+  // Git behaviour
+  "git.autofetch": true,
+
+  // Languages
+  "[cpp]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.rulers": [100],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always"
+    },
+    "files.trimTrailingWhitespace": true
+  },
+
+  // Testing behaviour
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+
+  // Formatting
+  "ruff.configuration": "pyproject.toml",
+  "files.insertFinalNewline": true
+}
